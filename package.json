@@ -1,0 +1,41 @@
+{
+  "name": "figma-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html src/*.css --port 4200 ",
+    "build": "parcel build src/*.html --public-url ./ --out-dir=build"
+    },
+  "customDistStructure": {
+    "config": {
+    "css": [
+    ".css.map",
+    ".css"
+    ],
+    "js": [
+    ".js.map",
+    ".js"
+    ],
+    "images": [
+    ".jpg",
+    ".png"
+    ],
+    ".fileExtension": "folder/in/build",
+    "folder/in/dist": [ ".file", ".extensions" ]
+    },
+    "options": {
+    "development": true
+    }
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-custom-dist-structure": "^1.1.20"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "parcel": "^2.10.3"
+  }
+}

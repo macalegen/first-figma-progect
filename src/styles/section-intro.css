@@ -1,0 +1,150 @@
+.section-intro {
+  width: 100%;
+  background-color: #f6f5f4;
+  align-items: center;
+  display: flex;
+  gap: 90px;
+}
+
+.page {
+  margin: 95px 0 135px 160px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.page-frame {
+  width: 531px;
+  height: 511px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.title {
+  color: #2b788b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+}
+
+.description {
+  width: 531px;
+  color: #000;
+  font-family: Dela Gothic One;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -2.2px;
+}
+
+.slogan {
+  width: 396px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.7px;
+}
+
+.link {
+  color: #2b788b;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  display: flex;
+  padding: 14px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  border-radius: 100px;
+  background: #c3dce3;
+  border-radius: 100px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.icons-left-top {
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-light {
+  width: 24px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.icons-600 {
+  margin-top: 10px;
+}
+
+.icons-600-footer {
+  color: #585858;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.6px;
+}
+
+.vector {
+  margin: 0 48px;
+  width: 1px;
+  height: 48.777px;
+  stroke-width: 1.219px;
+  border: 1px solid #e0e0e0;
+}
+
+.icons-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.icons-right-top {
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-plus-dots {
+  width: 24px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.icons-2-plus {
+  width: 56px;
+  height: 40px;
+}
+
+.icons-2-plus-footer {
+  color: #585858;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.6px;
+}
+
+.layout-1 {
+}
+
+.layout-3 {
+}

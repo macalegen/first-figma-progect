@@ -1,0 +1,99 @@
+<!-- yarn add parcel-plugin-custom-dist-structure --save-dev -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./styles/app.css" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                GlobalTalk
+            </a>
+            <ul class="menu">
+                <li class="menu-item active">
+                    <a href="/home">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/textbook">
+                        Textbook
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/statistics">
+                        Statistics
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="/games">
+                        Games
+                        <img 
+                            class="menu-arrow" 
+                            src="./assets/select-arow.svg" 
+                            alt="Arrow icon"
+                        >
+                    </a>
+                </li>
+            </ul>
+            <div class="header-auth">
+                <a href="#" class="header-auth-link">
+                    <span class="header-auth-logo">
+                        A
+                    </span>
+                    Alex
+                </a>
+                <button  class="header-auth-btn">
+                    Sign Out →
+                </button>
+            </div>
+            <button class="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+        </div>
+    </header>
+    <section class="section-intro">
+        <div class="page">
+            <div class="page-frame">
+                <div class="title">E-COURSE PLATFORM</div>
+                <div class="description">Learning and teaching online, made easy.</div>
+                <div class="slogan">Practice your English and learn new things with the platform.</div>
+                <a href="/" class="link">About platform</a>
+                <div class="icons">
+                    <div class="icons-left">
+                        <div class="icons-left-top">
+                            <img src="./assets/lightning.svg" alt="lightning icon" class="icons-light">
+                            <img src="./assets/600+.svg" alt="600+ icon" class="icons-600">
+                        </div>
+                        <div class="icons-600-footer">Popular words</div>
+                    </div>
+                    <div class="vector"></div>
+                    <div class="icons-right">
+                        <div class="icons-right-top">
+                            <img class="icons-plus-dots" src="./assets/plus-near-2+.svg" alt="icons plus dots">
+                            <img class="icons-2-plus" src="./assets/2+.svg" alt="icon 2+">
+                        </div>
+                        <div class="icons-2-plus-footer">Mini-games</div>
+                    </div>
+                </div>
+            </div>
+            <img class="layout-2" src="./assets/intro-image-boy.png" alt="image boy">
+        </div>
+        <img class="layout-1">
+        <img class="layout-3">
+    </section>
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>
